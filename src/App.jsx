@@ -2,7 +2,7 @@ import CrossIcon from "./components/icons/CrossIcon";
 import MoonIcon from "./components/icons/MoonIcon";
 const App = () => {
     return (
-        <div className="bg-gray-300 bg-[url('C:\Users\dbad_\Desktop\react-todo\src\assets\images\bg-mobile-light.jpg')] bg-contain bg-no-repeat">
+        <div className="bg-gray-300 bg-[url('./assets/images/bg-mobile-light.jpg')] bg-contain bg-no-repeat">
             <header className="container mx-auto px-4">
                 <div className="flex justify-between">
                     <h1 className="- text-3xl font-semibold  uppercase tracking-[0.3em] text-white">
